@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>Cortes Publicador - sign-in</title>
+<style>body{font-family:system-ui,sans-serif;max-width:680px;margin:40px auto;padding:0 20px;line-height:1.6;color:#222}</style></head>
+<body>
+<h1>Finishing sign-in…</h1>
+<p>Returning to the Cortes Publicador app on this computer. You can close this tab when it says it is done.</p>
+<script>
+// O app local escuta em http://localhost:8765/callback; aqui só repassamos o código que o TikTok mandou.
+location.replace("http://localhost:8765/callback" + location.search);
+</script>
+</body></html>
